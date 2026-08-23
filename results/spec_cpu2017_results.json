@@ -1,0 +1,2162 @@
+[
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 695.451392,
+    "spec_rate": 2.289161,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 676.578666,
+    "spec_rate": 2.092883,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 654.771426,
+    "spec_rate": 2.468037,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1787.23977,
+    "spec_rate": 0.734093,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1821.105673,
+    "spec_rate": 0.579868,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1207.422914,
+    "spec_rate": 1.450196,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 960.132101,
+    "spec_rate": 1.193586,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2547.610526,
+    "spec_rate": 0.650021,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 905.69802,
+    "spec_rate": 1.19245,
+    "run_id": "003",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 626.903686,
+    "spec_rate": 2.539465,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 584.34929,
+    "spec_rate": 2.423208,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 613.686172,
+    "spec_rate": 2.633268,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1404.677526,
+    "spec_rate": 0.934022,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1374.744834,
+    "spec_rate": 0.768143,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1187.456169,
+    "spec_rate": 1.474581,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 623.589758,
+    "spec_rate": 1.837747,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2011.196373,
+    "spec_rate": 0.823391,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 845.880523,
+    "spec_rate": 1.276776,
+    "run_id": "004",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 437.020036,
+    "spec_rate": 3.642854,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 306.439872,
+    "spec_rate": 4.620809,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 444.858477,
+    "spec_rate": 3.632616,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 522.846586,
+    "spec_rate": 2.50934,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 335.013863,
+    "spec_rate": 3.152108,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 445.091022,
+    "spec_rate": 3.934027,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 509.526149,
+    "spec_rate": 2.249149,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 626.346595,
+    "spec_rate": 2.643904,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 500.022826,
+    "spec_rate": 2.159901,
+    "run_id": "007",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 337.780046,
+    "spec_rate": 4.713126,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 287.065753,
+    "spec_rate": 4.932668,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 425.292184,
+    "spec_rate": 3.799741,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 456.400277,
+    "spec_rate": 2.87467,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 324.883975,
+    "spec_rate": 3.250391,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 409.367578,
+    "spec_rate": 4.277329,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 334.634464,
+    "spec_rate": 3.424632,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 533.517896,
+    "spec_rate": 3.103926,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 417.227453,
+    "spec_rate": 2.588516,
+    "run_id": "008",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 449.932236,
+    "spec_rate": 3.538311,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 323.06768,
+    "spec_rate": 4.382983,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 411.016378,
+    "spec_rate": 3.931717,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 432.931317,
+    "spec_rate": 3.030504,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 290.040753,
+    "spec_rate": 3.640868,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 534.404146,
+    "spec_rate": 3.276546,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 429.557725,
+    "spec_rate": 2.66786,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 604.545264,
+    "spec_rate": 2.739249,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 402.710012,
+    "spec_rate": 2.681831,
+    "run_id": "009",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 322.574264,
+    "spec_rate": 4.935298,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 250.568854,
+    "spec_rate": 5.651141,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 387.462575,
+    "spec_rate": 4.170725,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 390.323977,
+    "spec_rate": 3.36131,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 248.442126,
+    "spec_rate": 4.250487,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 415.234677,
+    "spec_rate": 4.216893,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 305.826989,
+    "spec_rate": 3.747217,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 512.513572,
+    "spec_rate": 3.231134,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 407.229204,
+    "spec_rate": 2.652069,
+    "run_id": "010",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 454.6852,
+    "spec_rate": 3.501324,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 281.595544,
+    "spec_rate": 5.028489,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 413.544362,
+    "spec_rate": 3.907682,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 518.160604,
+    "spec_rate": 2.532033,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 279.049575,
+    "spec_rate": 3.784274,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 414.011762,
+    "spec_rate": 4.229348,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 430.843186,
+    "spec_rate": 2.6599,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 534.808646,
+    "spec_rate": 3.096435,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 385.025102,
+    "spec_rate": 2.805012,
+    "run_id": "011",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 327.805585,
+    "spec_rate": 4.856537,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 236.871885,
+    "spec_rate": 5.977915,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 370.834232,
+    "spec_rate": 4.357742,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 337.179465,
+    "spec_rate": 3.891103,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 218.601535,
+    "spec_rate": 4.830707,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 336.183093,
+    "spec_rate": 5.208471,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 282.605002,
+    "spec_rate": 4.05513,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 436.657918,
+    "spec_rate": 3.792442,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 326.401759,
+    "spec_rate": 3.308806,
+    "run_id": "012",
+    "suite": "gcc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 670.696435,
+    "spec_rate": 2.373652,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 599.413391,
+    "spec_rate": 2.36231,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 608.702271,
+    "spec_rate": 2.654828,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1244.126511,
+    "spec_rate": 1.054555,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1350.391365,
+    "spec_rate": 0.781996,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1266.961986,
+    "spec_rate": 1.382046,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 767.195504,
+    "spec_rate": 1.493752,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2055.02689,
+    "spec_rate": 0.805829,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 809.190925,
+    "spec_rate": 1.334666,
+    "run_id": "020",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 615.80164,
+    "spec_rate": 2.585248,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 541.137235,
+    "spec_rate": 2.616711,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 604.584165,
+    "spec_rate": 2.672912,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1048.962419,
+    "spec_rate": 1.25076,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1144.436078,
+    "spec_rate": 0.922725,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1201.075978,
+    "spec_rate": 1.457859,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 600.535407,
+    "spec_rate": 1.908297,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1848.824984,
+    "spec_rate": 0.895704,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 794.181712,
+    "spec_rate": 1.35989,
+    "run_id": "021",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 399.009414,
+    "spec_rate": 3.989881,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 272.203501,
+    "spec_rate": 5.20199,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 403.267967,
+    "spec_rate": 4.007261,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 400.266869,
+    "spec_rate": 3.277813,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 257.63769,
+    "spec_rate": 4.098779,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 460.234828,
+    "spec_rate": 3.80458,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 409.552099,
+    "spec_rate": 2.798179,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 580.695058,
+    "spec_rate": 2.851755,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 394.313747,
+    "spec_rate": 2.738936,
+    "run_id": "022",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 352.968944,
+    "spec_rate": 4.510312,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 253.574653,
+    "spec_rate": 5.584154,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 369.339674,
+    "spec_rate": 4.375376,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 375.526656,
+    "spec_rate": 3.49376,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 236.878652,
+    "spec_rate": 4.457979,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 399.901929,
+    "spec_rate": 4.378574,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 291.950049,
+    "spec_rate": 3.925329,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 487.863545,
+    "spec_rate": 3.394392,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 380.885389,
+    "spec_rate": 2.835499,
+    "run_id": "023",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 402.246269,
+    "spec_rate": 3.957774,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 267.696181,
+    "spec_rate": 5.289579,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 438.199718,
+    "spec_rate": 3.687816,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 365.432839,
+    "spec_rate": 3.590263,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 243.55863,
+    "spec_rate": 4.335712,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 242.347575,
+    "spec_rate": 7.22516,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 407.1105,
+    "spec_rate": 2.814961,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 528.408594,
+    "spec_rate": 3.133938,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 375.429098,
+    "spec_rate": 2.876708,
+    "run_id": "024",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 337.212521,
+    "spec_rate": 4.721058,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 241.916814,
+    "spec_rate": 5.853252,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 393.636916,
+    "spec_rate": 4.105306,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 332.031637,
+    "spec_rate": 3.951431,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 236.846229,
+    "spec_rate": 4.458589,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 215.287712,
+    "spec_rate": 8.133302,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 288.863979,
+    "spec_rate": 3.967265,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 433.905314,
+    "spec_rate": 3.816501,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 329.916069,
+    "spec_rate": 3.27356,
+    "run_id": "025",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 395.413775,
+    "spec_rate": 4.026162,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 262.419551,
+    "spec_rate": 5.395939,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 429.291209,
+    "spec_rate": 3.764344,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 345.962875,
+    "spec_rate": 3.792314,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 250.962417,
+    "spec_rate": 4.207801,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 272.133449,
+    "spec_rate": 6.434343,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 399.216287,
+    "spec_rate": 2.870624,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 509.791688,
+    "spec_rate": 3.248386,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 404.197971,
+    "spec_rate": 2.671958,
+    "run_id": "026",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 340.733753,
+    "spec_rate": 4.67227,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 246.61257,
+    "spec_rate": 5.7418,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 374.000578,
+    "spec_rate": 4.320849,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 309.615904,
+    "spec_rate": 4.237508,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 236.558257,
+    "spec_rate": 4.464017,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 254.652709,
+    "spec_rate": 6.876031,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 293.012233,
+    "spec_rate": 3.9111,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 419.369311,
+    "spec_rate": 3.948787,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 339.814513,
+    "spec_rate": 3.178204,
+    "run_id": "027",
+    "suite": "clang"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 652.489382,
+    "spec_rate": 2.439886,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 593.934719,
+    "spec_rate": 2.3841,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 630.087278,
+    "spec_rate": 2.564724,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1746.998015,
+    "spec_rate": 0.751003,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2074.666115,
+    "spec_rate": 0.508998,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1464.653829,
+    "spec_rate": 1.195504,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 813.491418,
+    "spec_rate": 1.408743,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2624.877548,
+    "spec_rate": 0.630887,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 928.308433,
+    "spec_rate": 1.163406,
+    "run_id": "029",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 720.68879,
+    "spec_rate": 2.208998,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 649.586828,
+    "spec_rate": 2.179847,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 615.696753,
+    "spec_rate": 2.624669,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1442.227149,
+    "spec_rate": 0.909704,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1592.356726,
+    "spec_rate": 0.663168,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 1359.496127,
+    "spec_rate": 1.287977,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 677.208135,
+    "spec_rate": 1.692242,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 2406.064349,
+    "spec_rate": 0.688261,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O0",
+    "runtime_seconds": 796.371803,
+    "spec_rate": 1.35615,
+    "run_id": "030",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 347.320485,
+    "spec_rate": 4.583663,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 291.935059,
+    "spec_rate": 4.850394,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 413.40458,
+    "spec_rate": 3.909004,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 399.720004,
+    "spec_rate": 3.282298,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 281.171736,
+    "spec_rate": 3.755712,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 731.466296,
+    "spec_rate": 2.393822,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 433.349253,
+    "spec_rate": 2.644518,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 611.241495,
+    "spec_rate": 2.70924,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 433.492417,
+    "spec_rate": 2.491393,
+    "run_id": "031",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 340.992196,
+    "spec_rate": 4.668729,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 298.589736,
+    "spec_rate": 4.742293,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 392.351068,
+    "spec_rate": 4.11876,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 425.866701,
+    "spec_rate": 3.080776,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 275.15626,
+    "spec_rate": 3.837819,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 632.557545,
+    "spec_rate": 2.768128,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 335.863382,
+    "spec_rate": 3.412102,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 555.320571,
+    "spec_rate": 2.982061,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O1",
+    "runtime_seconds": 402.19004,
+    "spec_rate": 2.685298,
+    "run_id": "032",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 317.099859,
+    "spec_rate": 5.0205,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 233.391804,
+    "spec_rate": 6.067051,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 415.484219,
+    "spec_rate": 3.889438,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 482.999194,
+    "spec_rate": 2.716361,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 230.97668,
+    "spec_rate": 4.57189,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 265.88037,
+    "spec_rate": 6.585669,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 366.180361,
+    "spec_rate": 3.129605,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 493.526189,
+    "spec_rate": 3.355445,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 336.967973,
+    "spec_rate": 3.205052,
+    "run_id": "033",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 305.953206,
+    "spec_rate": 5.20341,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 244.361737,
+    "spec_rate": 5.794688,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 341.621907,
+    "spec_rate": 4.730376,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 391.787613,
+    "spec_rate": 3.348753,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 220.205761,
+    "spec_rate": 4.795515,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 225.81327,
+    "spec_rate": 7.754194,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 293.620299,
+    "spec_rate": 3.903,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 402.242752,
+    "spec_rate": 4.116917,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O2",
+    "runtime_seconds": 332.036643,
+    "spec_rate": 3.252653,
+    "run_id": "034",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 306.82764,
+    "spec_rate": 5.188581,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 233.707431,
+    "spec_rate": 6.058857,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 413.50949,
+    "spec_rate": 3.908012,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 501.387585,
+    "spec_rate": 2.616738,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 202.716797,
+    "spec_rate": 5.209238,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 260.758256,
+    "spec_rate": 6.715032,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 375.639982,
+    "spec_rate": 3.050793,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 513.675093,
+    "spec_rate": 3.223828,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "32-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 435.201741,
+    "spec_rate": 2.481608,
+    "run_id": "035",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 367.529139,
+    "spec_rate": 4.331629,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 275.041616,
+    "spec_rate": 5.148312,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 369.460758,
+    "spec_rate": 4.373942,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 362.591482,
+    "spec_rate": 3.618397,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 239.923101,
+    "spec_rate": 4.40141,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 250.68785,
+    "spec_rate": 6.984782,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 313.908979,
+    "spec_rate": 3.65074,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 445.433048,
+    "spec_rate": 3.71773,
+    "run_id": "036",
+    "suite": "icc"
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bitness": "64-bit",
+    "optimization": "-O3",
+    "runtime_seconds": 424.631562,
+    "spec_rate": 2.543381,
+    "run_id": "036",
+    "suite": "icc"
+  }
+]

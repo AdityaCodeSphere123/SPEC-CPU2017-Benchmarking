@@ -53,6 +53,17 @@ You must produce a total of **9 graphs** (one for each individual integer benchm
   - ICC/icx (32-bit)
   - ICC/icx (64-bit)
 
+### Running the Parsing & Plotting Pipeline
+
+To automatically parse raw result files and generate all graphs:
+```bash
+# Parse raw benchmark CSVs into structured dataset
+python3 scripts/parse_results.py
+
+# Generate publication-quality benchmark plots in plots/
+python3 scripts/plot_results.py
+```
+
 ---
 
 ## 🔍 Addendum: Measuring Basic Block Instruction Counts
