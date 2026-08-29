@@ -1,0 +1,493 @@
+valid,0
+
+"SPEC CPU2017 Integer Rate Result"
+
+"Full Results Table"
+
+Benchmark,"Base # Copies","Est. Base Run Time","Est. Base Rate","Base Selected","Base Status","Peak # Copies","Est. Peak Run Time","Est. Peak Rate","Peak Selected","Peak Status",Description
+500.perlbench_r,1,322.574264,4.935298,1,S,,,,,,"refrate(ref) iteration #1"
+502.gcc_r,1,250.568854,5.651141,1,S,,,,,,"refrate(ref) iteration #1"
+505.mcf_r,1,387.462575,4.170725,1,S,,,,,,"refrate(ref) iteration #1"
+520.omnetpp_r,1,390.323977,3.36131,1,S,,,,,,"refrate(ref) iteration #1"
+523.xalancbmk_r,1,248.442126,4.250487,1,S,,,,,,"refrate(ref) iteration #1"
+525.x264_r,1,415.234677,4.216893,1,S,,,,,,"refrate(ref) iteration #1"
+531.deepsjeng_r,1,305.826989,3.747217,1,S,,,,,,"refrate(ref) iteration #1"
+541.leela_r,1,512.513572,3.231134,1,S,,,,,,"refrate(ref) iteration #1"
+548.exchange2_r,,,,,NR,,,,,NR
+557.xz_r,1,407.229204,2.652069,1,S,,,,,,"refrate(ref) iteration #1"
+
+"Selected Results Table"
+
+Benchmark,"Base # Copies","Est. Base Run Time","Est. Base Rate","Base Selected","Base Status","Peak # Copies","Est. Peak Run Time","Est. Peak Rate","Peak Selected","Peak Status",Description
+500.perlbench_r,1,322.574264,4.935298,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+502.gcc_r,1,250.568854,5.651141,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+505.mcf_r,1,387.462575,4.170725,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+520.omnetpp_r,1,390.323977,3.36131,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+523.xalancbmk_r,1,248.442126,4.250487,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+525.x264_r,1,415.234677,4.216893,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+531.deepsjeng_r,1,305.826989,3.747217,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+541.leela_r,1,512.513572,3.231134,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+548.exchange2_r,,,,,NR,,,,,NR
+557.xz_r,1,407.229204,2.652069,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+
+SPECrate2017_int_base,3.932732,,3.932732
+SPECrate2017_int_peak,"Not Run",,,,,,,"Not Run"
+
+"Run number:",010.0
+"runcpu command:","/home/cs5230497/spec2017/bin/harness/runcpu --configfile gcc.cfg --define bits=64 --define opt=O2 --size ref --tune base --iterations 1 --noreportable --noreportable --nopower --runmode rate --tune base --size refrate 500.perlbench_r 502.gcc_r 505.mcf_r 520.omnetpp_r 523.xalancbmk_r 525.x264_r 531.deepsjeng_r 541.leela_r 557.xz_r"
+"output root:","not used"
+
+"Hardware Vendor:","My Corporation"
+"Hardware Model:",
+"Date tested:",Aug-2026
+"CPU2017 License:","nnn (Your SPEC license number)"
+"Test sponsor:","My Corporation"
+"Tested by:","My Corporation"
+"Hardware avail:",
+"Software avail:",
+
+
+HARDWARE
+
+"CPU Name","Intel Xeon Gold 5220R"
+"  Max MHz."," "
+"  Nominal"," "
+Enabled," cores, 2 chips,  threads/core"
+Orderable," "
+"Cache L1"," "
+"  L2"," "
+"  L3"," "
+"  Other"," "
+Memory,"187.377 GB fixme: If using DDR4, the format is:"
+,"'N GB (N x N GB nRxn PC4-nnnnX-X)'"
+Storage,"11 TB  add more disk info here"
+Other," "
+
+SOFTWARE
+
+OS,"Ubuntu 22.04.5 LTS"
+,6.8.0-78-generic
+Compiler,"C/C++/Fortran: Version 7.2.1 of GCC, the"
+,"GNU Compiler Collection"
+Parallel,No
+Firmware," "
+"File System",ext4
+"System State","Run level 5 (add definition here)"
+"Base Pointers",64-bit
+"Peak Pointers","Not Applicable"
+Other," "
+
+"General Notes"
+
+"Environment variables set by runcpu before the start of the run:"
+"LD_LIBRARY_PATH = ""/usr/lib64/:/usr/lib/:/lib64"""
+
+
+"Platform Notes"
+
+" Sysinfo program /home/cs5230497/spec2017/bin/sysinfo"
+" Rev: r5974 of 2018-05-19 9bcde8f2999c33d61f64985e45859ea9"
+" running on neutron Fri Aug 21 16:22:14 2026"
+
+" SUT (System Under Test) info as seen by some common utilities."
+" For more information on this section, see"
+"    https://www.spec.org/cpu2017/Docs/config.html#sysinfo"
+
+" From /proc/cpuinfo"
+"    model name : Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz"
+"       2  ""physical id""s (chips)"
+"       96 ""processors"""
+"    cores, siblings (Caution: counting these is hw and system dependent. The following"
+"    excerpts from /proc/cpuinfo might not be reliable.  Use with caution.)"
+"       cpu cores : 24"
+"       siblings  : 48"
+"       physical 0: cores 0 1 2 3 4 5 6 8 9 10 11 12 13 16 17 18 19 20 21 25 26 27 28 29"
+"       physical 1: cores 0 1 2 3 4 5 6 8 9 10 11 12 13 16 17 18 19 20 21 25 26 27 28 29"
+
+" From lscpu:"
+"      Architecture:                         x86_64"
+"      CPU op-mode(s):                       32-bit, 64-bit"
+"      Address sizes:                        46 bits physical, 48 bits virtual"
+"      Byte Order:                           Little Endian"
+"      CPU(s):                               96"
+"      On-line CPU(s) list:                  0-95"
+"      Vendor ID:                            GenuineIntel"
+"      Model name:                           Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz"
+"      CPU family:                           6"
+"      Model:                                85"
+"      Thread(s) per core:                   2"
+"      Core(s) per socket:                   24"
+"      Socket(s):                            2"
+"      Stepping:                             7"
+"      CPU max MHz:                          4000.0000"
+"      CPU min MHz:                          1000.0000"
+"      BogoMIPS:                             4400.00"
+"      Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep"
+"      mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall"
+"      nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology"
+"      nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2"
+"      ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt"
+"      tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault"
+"      epb cat_l3 cdp_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow"
+"      flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid"
+"      cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd"
+"      avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total"
+"      cqm_mbm_local dtherm ida arat pln pts vnmi pku ospke avx512_vnni md_clear flush_l1d"
+"      arch_capabilities"
+"      Virtualization:                       VT-x"
+"      L1d cache:                            1.5 MiB (48 instances)"
+"      L1i cache:                            1.5 MiB (48 instances)"
+"      L2 cache:                             48 MiB (48 instances)"
+"      L3 cache:                             71.5 MiB (2 instances)"
+"      NUMA node(s):                         2"
+"      NUMA node0 CPU(s):                    0-23,48-71"
+"      NUMA node1 CPU(s):                    24-47,72-95"
+"      Vulnerability Gather data sampling:   Mitigation; Microcode"
+"      Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled"
+"      Vulnerability L1tf:                   Not affected"
+"      Vulnerability Mds:                    Not affected"
+"      Vulnerability Meltdown:               Not affected"
+"      Vulnerability Mmio stale data:        Mitigation; Clear CPU buffers; SMT vulnerable"
+"      Vulnerability Reg file data sampling: Not affected"
+"      Vulnerability Retbleed:               Mitigation; Enhanced IBRS"
+"      Vulnerability Spec rstack overflow:   Not affected"
+"      Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled"
+"      via prctl"
+"      Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and"
+"      __user pointer sanitization"
+"      Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB"
+"      conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop"
+"      Vulnerability Srbds:                  Not affected"
+"      Vulnerability Tsx async abort:        Mitigation; TSX disabled"
+
+" /proc/cpuinfo cache data"
+"    cache size : 36608 KB"
+
+" From numactl --hardware  WARNING: a numactl 'node' might or might not correspond to a"
+" physical chip."
+"   available: 2 nodes (0-1)"
+"   node 0 cpus: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 48 49 50 51"
+"   52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71"
+"   node 0 size: 95171 MB"
+"   node 0 free: 2105 MB"
+"   node 1 cpus: 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 72"
+"   73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95"
+"   node 1 size: 96702 MB"
+"   node 1 free: 581 MB"
+"   node distances:"
+"   node   0   1"
+"     0:  10  21"
+"     1:  21  10"
+
+" From /proc/meminfo"
+"    MemTotal:       196478624 kB"
+"    HugePages_Total:       0"
+"    Hugepagesize:       2048 kB"
+
+" /usr/bin/lsb_release -d"
+"    Ubuntu 22.04.5 LTS"
+
+" From /etc/*release* /etc/*version*"
+"    debian_version: bookworm/sid"
+"    os-release:"
+"       PRETTY_NAME=""Ubuntu 22.04.5 LTS"""
+"       NAME=""Ubuntu"""
+"       VERSION_ID=""22.04"""
+"       VERSION=""22.04.5 LTS (Jammy Jellyfish)"""
+"       VERSION_CODENAME=jammy"
+"       ID=ubuntu"
+"       ID_LIKE=debian"
+"       HOME_URL=""https://www.ubuntu.com/"""
+
+" uname -a:"
+"    Linux neutron 6.8.0-78-generic #78~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Aug 13"
+"    14:32:06 UTC 2 x86_64 x86_64 x86_64 GNU/Linux"
+
+" Kernel self-reported vulnerability status:"
+
+" CVE-2017-5754 (Meltdown):          Not affected"
+" CVE-2017-5753 (Spectre variant 1): Mitigation: usercopy/swapgs barriers and __user"
+" pointer sanitization"
+" CVE-2017-5715 (Spectre variant 2): Mitigation: Enhanced / Automatic IBRS; IBPB:"
+" conditional; RSB filling; PBRSB-eIBRS: SW sequence; BHI: SW loop, KVM: SW loop"
+
+" run-level 5 May 4 09:53"
+
+" SPEC is set to: /home/cs5230497/spec2017"
+"    Filesystem     Type  Size  Used Avail Use% Mounted on"
+"    /dev/sdb1      ext4   11T  3.7T  6.7T  36% /home"
+
+" Additional information from dmidecode follows.  WARNING: Use caution when you interpret"
+" this section. The 'dmidecode' program reads system data which is ""intended to allow"
+" hardware to be accurately determined"", but the intent may not be met, as there are"
+" frequent changes to hardware, firmware, and the ""DMTF SMBIOS"" standard."
+
+" (End of data from sysinfo program)"
+
+"Compiler Version Notes"
+
+==============================================================================
+" CXXC 520.omnetpp_r(base) 523.xalancbmk_r(base) 531.deepsjeng_r(base)"
+"      541.leela_r(base)"
+------------------------------------------------------------------------------
+"Using built-in specs."
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+"Target: x86_64-linux-gnu"
+"Configured with: ../src/configure -v --with-pkgversion='Ubuntu"
+"  11.4.0-1ubuntu1~22.04.2'"
+"  --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs"
+"  --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2"
+"  --prefix=/usr --with-gcc-major-version-only --program-suffix=-11"
+"  --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id"
+"  --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix"
+"  --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu"
+"  --enable-libstdcxx-debug --enable-libstdcxx-time=yes"
+"  --with-default-libstdcxx-abi=new --enable-gnu-unique-object"
+"  --disable-vtable-verify --enable-plugin --enable-default-pie"
+"  --with-system-zlib --enable-libphobos-checking=release"
+"  --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch"
+"  --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64"
+"  --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic"
+"  --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr"
+"  --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu"
+"  --host=x86_64-linux-gnu --target=x86_64-linux-gnu"
+"  --with-build-config=bootstrap-lto-lean --enable-link-serialization=2"
+"Thread model: posix"
+"Supported LTO compression algorithms: zlib zstd"
+"gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) "
+------------------------------------------------------------------------------
+
+==============================================================================
+" CC  500.perlbench_r(base) 502.gcc_r(base) 505.mcf_r(base) 525.x264_r(base)"
+"      557.xz_r(base)"
+------------------------------------------------------------------------------
+"Using built-in specs."
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+"Target: x86_64-linux-gnu"
+"Configured with: ../src/configure -v --with-pkgversion='Ubuntu"
+"  11.4.0-1ubuntu1~22.04.2'"
+"  --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs"
+"  --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2"
+"  --prefix=/usr --with-gcc-major-version-only --program-suffix=-11"
+"  --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id"
+"  --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix"
+"  --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu"
+"  --enable-libstdcxx-debug --enable-libstdcxx-time=yes"
+"  --with-default-libstdcxx-abi=new --enable-gnu-unique-object"
+"  --disable-vtable-verify --enable-plugin --enable-default-pie"
+"  --with-system-zlib --enable-libphobos-checking=release"
+"  --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch"
+"  --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64"
+"  --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic"
+"  --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr"
+"  --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu"
+"  --host=x86_64-linux-gnu --target=x86_64-linux-gnu"
+"  --with-build-config=bootstrap-lto-lean --enable-link-serialization=2"
+"Thread model: posix"
+"Supported LTO compression algorithms: zlib zstd"
+"gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) "
+------------------------------------------------------------------------------
+
+"Base Runtime Environment"
+500.perlbench_r," No flags used"
+502.gcc_r," No flags used"
+505.mcf_r," No flags used"
+520.omnetpp_r," No flags used"
+523.xalancbmk_r," No flags used"
+525.x264_r," No flags used"
+531.deepsjeng_r," No flags used"
+541.leela_r," No flags used"
+548.exchange2_r
+557.xz_r," No flags used"
+
+"Base Compiler Invocation"
+500.perlbench_r," gcc"," gcc"
+502.gcc_r," gcc"," gcc"
+505.mcf_r," gcc"," gcc"
+520.omnetpp_r," g++"," g++"
+523.xalancbmk_r," g++"," g++"
+525.x264_r," gcc"," gcc"
+531.deepsjeng_r," g++"," g++"
+541.leela_r," g++"," g++"
+548.exchange2_r
+557.xz_r," gcc"," gcc"
+
+"Base Portability Flags"
+500.perlbench_r," -DSPEC_LINUX_X64"," -DSPEC_LP64"
+502.gcc_r," -DSPEC_LP64"
+505.mcf_r," -DSPEC_LP64"
+520.omnetpp_r," -DSPEC_LP64"
+523.xalancbmk_r," -DSPEC_LINUX"," -DSPEC_LP64"
+525.x264_r," -DSPEC_LP64"
+531.deepsjeng_r," -DSPEC_LP64"
+541.leela_r," -DSPEC_LP64"
+548.exchange2_r
+557.xz_r," -DSPEC_LP64"
+
+"Base Optimization Flags"
+500.perlbench_r," -m64"," -std=c99"," -std=c99"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fno-strict-aliasing"," -fgnu89-inline"
+502.gcc_r," -m64"," -std=c99"," -std=c99"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fno-strict-aliasing"," -fgnu89-inline"
+505.mcf_r," -m64"," -std=c99"," -std=c99"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fno-strict-aliasing"," -fgnu89-inline"
+520.omnetpp_r," -m64"," -std=c++03"," -std=c++03"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"
+523.xalancbmk_r," -m64"," -std=c++03"," -std=c++03"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"
+525.x264_r," -m64"," -std=c99"," -std=c99"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fno-strict-aliasing"," -fgnu89-inline"
+531.deepsjeng_r," -m64"," -std=c++03"," -std=c++03"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"
+541.leela_r," -m64"," -std=c++03"," -std=c++03"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"
+548.exchange2_r
+557.xz_r," -m64"," -std=c99"," -std=c99"," -m64"," -g"," -O2"," -march=native"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fno-strict-aliasing"," -fgnu89-inline"
+
+"Base Other Flags"
+500.perlbench_r," No flags used"
+502.gcc_r," No flags used"
+505.mcf_r," No flags used"
+520.omnetpp_r," No flags used"
+523.xalancbmk_r," No flags used"
+525.x264_r," No flags used"
+531.deepsjeng_r," No flags used"
+541.leela_r," No flags used"
+548.exchange2_r
+557.xz_r," No flags used"
+
+"Base Forbidden Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Base Unknown Flags"
+500.perlbench_r," -fcommon"," -fcommon"
+502.gcc_r," -fcommon"," -fcommon"
+505.mcf_r," -fcommon"," -fcommon"
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r," -fcommon"," -fcommon"," -fcommon"," -fcommon"," -fcommon"," -fcommon"
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r," -fcommon"," -fcommon"
+
+"Peak Runtime Environment"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Compiler Invocation"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Portability Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Optimization Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Other Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Forbidden Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+"Peak Unknown Flags"
+500.perlbench_r
+502.gcc_r
+505.mcf_r
+520.omnetpp_r
+523.xalancbmk_r
+525.x264_r
+531.deepsjeng_r
+541.leela_r
+548.exchange2_r
+557.xz_r
+
+ERRORS
+
+##############################################################################
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+"#                                                                            #"
+"# 'reportable' flag not set during run                                       #"
+"# 525.x264_r (base) did not have enough runs!                                #"
+"# 520.omnetpp_r (base) did not have enough runs!                             #"
+"# 548.exchange2_r (base) did not have enough runs!                           #"
+"# 541.leela_r (base) did not have enough runs!                               #"
+"# 502.gcc_r (base) did not have enough runs!                                 #"
+"# 557.xz_r (base) did not have enough runs!                                  #"
+"# 523.xalancbmk_r (base) did not have enough runs!                           #"
+"# 500.perlbench_r (base) did not have enough runs!                           #"
+"# 531.deepsjeng_r (base) did not have enough runs!                           #"
+"# 505.mcf_r (base) did not have enough runs!                                 #"
+"# Unknown flags were used! See                                               #"
+"#      https://www.spec.org/cpu2017/Docs/runcpu.html#flagsurl                #"
+"# for information about how to get rid of this error.                        #"
+"#                                                                            #"
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+##############################################################################
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",info@spec.org.,
+"Copyright 2017-2026 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC CPU2017",v1.0.5.
+"Result run on","2026-08-21 16:22:13+0530."
+"Report generated on","2026-08-21 17:19:40","by SPEC CPU2017 CSV","formatter v5178."

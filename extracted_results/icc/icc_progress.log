@@ -1,0 +1,722 @@
+=== ICC matrix started Sat Aug 22 10:51:55 IST 2026 ===
+>>> [10:51:55] Running icc-m32-O0 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (352942 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:51:56]
+  Building 502.gcc_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:51:59]
+  Building 505.mcf_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:06]
+  Building 520.omnetpp_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:07]
+  Building 523.xalancbmk_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:14]
+  Building 525.x264_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:30]
+  Building 531.deepsjeng_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:35]
+  Building 541.leela_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:37]
+  Building 557.xz_r base icc-O0-m32: (build_base_icc-O0-m32.0000) [2026-08-22 10:52:40]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 525.x264_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 541.leela_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+  Setting up 557.xz_r refrate (ref) base icc-O0-m32 (1 copy): run_base_refrate_icc-O0-m32.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 10:54:11]
+  Running 502.gcc_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 11:05:05]
+  Running 505.mcf_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 11:15:11]
+  Running 520.omnetpp_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 11:25:42]
+  Running 523.xalancbmk_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 11:54:54]
+  Running 525.x264_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 12:29:30]
+  Running 531.deepsjeng_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 12:53:57]
+  Running 541.leela_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 13:07:31]
+  Running 557.xz_r refrate (ref) base icc-O0-m32 (1 copy) [2026-08-22 13:51:17]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O0-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.029.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.029.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.029.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.029.log
+
+runcpu finished at 2026-08-22 14:06:51; 11695 total seconds elapsed
+    OK: icc-m32-O0
+>>> [14:06:51] Running icc-m64-O0 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.10s (331437 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:06:52]
+  Building 502.gcc_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:06:55]
+  Up to date 505.mcf_r base icc-O0-m64
+  Building 520.omnetpp_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:06]
+  Building 523.xalancbmk_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:14]
+  Building 525.x264_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:31]
+  Building 531.deepsjeng_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:38]
+  Building 541.leela_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:39]
+  Building 557.xz_r base icc-O0-m64: (build_base_icc-O0-m64.0000) [2026-08-22 14:07:42]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 525.x264_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 541.leela_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+  Setting up 557.xz_r refrate (ref) base icc-O0-m64 (1 copy): run_base_refrate_icc-O0-m64.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 14:09:06]
+  Running 502.gcc_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 14:21:08]
+  Running 505.mcf_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 14:32:11]
+  Running 520.omnetpp_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 14:42:28]
+  Running 523.xalancbmk_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 15:06:33]
+  Running 525.x264_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 15:33:07]
+  Running 531.deepsjeng_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 15:55:48]
+  Running 541.leela_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 16:07:06]
+  Running 557.xz_r refrate (ref) base icc-O0-m64 (1 copy) [2026-08-22 16:47:13]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O0-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.030.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.030.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.030.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.030.log
+
+runcpu finished at 2026-08-22 17:00:34; 10423 total seconds elapsed
+    OK: icc-m64-O0
+>>> [17:00:34] Running icc-m32-O1 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (355932 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:00:35]
+  Building 502.gcc_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:00:41]
+  Building 505.mcf_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:01:28]
+  Building 520.omnetpp_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:01:29]
+  Building 523.xalancbmk_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:01:40]
+  Building 525.x264_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:01:57]
+  Building 531.deepsjeng_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:02:04]
+  Building 541.leela_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:02:06]
+  Building 557.xz_r base icc-O1-m32: (build_base_icc-O1-m32.0000) [2026-08-22 17:02:09]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 525.x264_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 541.leela_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+  Setting up 557.xz_r refrate (ref) base icc-O1-m32 (1 copy): run_base_refrate_icc-O1-m32.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:02:39]
+  Running 502.gcc_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:08:28]
+  Running 505.mcf_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:13:32]
+  Running 520.omnetpp_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:20:26]
+  Running 523.xalancbmk_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:27:09]
+  Running 525.x264_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:31:51]
+  Running 531.deepsjeng_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:44:05]
+  Running 541.leela_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 17:51:19]
+  Running 557.xz_r refrate (ref) base icc-O1-m32 (1 copy) [2026-08-22 18:01:31]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O1-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.031.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.031.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.031.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.031.log
+
+runcpu finished at 2026-08-22 18:08:49; 4094 total seconds elapsed
+    OK: icc-m32-O1
+>>> [18:08:49] Running icc-m64-O1 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (352783 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:08:50]
+  Building 502.gcc_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:08:56]
+  Building 505.mcf_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:09:42]
+  Building 520.omnetpp_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:09:43]
+  Building 523.xalancbmk_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:09:54]
+  Building 525.x264_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:10:13]
+  Building 531.deepsjeng_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:10:19]
+  Building 541.leela_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:10:21]
+  Building 557.xz_r base icc-O1-m64: (build_base_icc-O1-m64.0000) [2026-08-22 18:10:25]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 525.x264_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 541.leela_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+  Setting up 557.xz_r refrate (ref) base icc-O1-m64 (1 copy): run_base_refrate_icc-O1-m64.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:10:51]
+  Running 502.gcc_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:16:34]
+  Running 505.mcf_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:21:45]
+  Running 520.omnetpp_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:28:18]
+  Running 523.xalancbmk_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:35:28]
+  Running 525.x264_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:40:03]
+  Running 531.deepsjeng_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:50:38]
+  Running 541.leela_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 18:56:14]
+  Running 557.xz_r refrate (ref) base icc-O1-m64 (1 copy) [2026-08-22 19:05:30]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O1-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.032.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.032.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.032.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.032.log
+
+runcpu finished at 2026-08-22 19:12:18; 3808 total seconds elapsed
+    OK: icc-m64-O1
+>>> [19:12:18] Running icc-m32-O2 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (357929 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:12:19]
+  Building 502.gcc_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:12:27]
+  Building 505.mcf_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:13:17]
+  Building 520.omnetpp_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:13:19]
+  Building 523.xalancbmk_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:13:31]
+  Building 525.x264_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:13:58]
+  Building 531.deepsjeng_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:14:08]
+  Building 541.leela_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:14:10]
+  Building 557.xz_r base icc-O2-m32: (build_base_icc-O2-m32.0000) [2026-08-22 19:14:14]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 525.x264_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 541.leela_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+  Setting up 557.xz_r refrate (ref) base icc-O2-m32 (1 copy): run_base_refrate_icc-O2-m32.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:14:44]
+  Running 502.gcc_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:20:02]
+  Running 505.mcf_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:24:08]
+  Running 520.omnetpp_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:31:04]
+  Running 523.xalancbmk_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:39:11]
+  Running 525.x264_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:43:03]
+  Running 531.deepsjeng_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:47:30]
+  Running 541.leela_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 19:53:37]
+  Running 557.xz_r refrate (ref) base icc-O2-m32 (1 copy) [2026-08-22 20:01:51]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O2-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.033.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.033.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.033.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.033.log
+
+runcpu finished at 2026-08-22 20:07:34; 3315 total seconds elapsed
+    OK: icc-m32-O2
+>>> [20:07:34] Running icc-m64-O2 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (361250 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:07:35]
+  Building 502.gcc_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:07:43]
+  Building 505.mcf_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:08:27]
+  Building 520.omnetpp_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:08:29]
+  Building 523.xalancbmk_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:08:41]
+  Building 525.x264_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:09:08]
+  Building 531.deepsjeng_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:09:19]
+  Building 541.leela_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:09:21]
+  Building 557.xz_r base icc-O2-m64: (build_base_icc-O2-m64.0000) [2026-08-22 20:09:25]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 525.x264_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 541.leela_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+  Setting up 557.xz_r refrate (ref) base icc-O2-m64 (1 copy): run_base_refrate_icc-O2-m64.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:09:51]
+  Running 502.gcc_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:14:58]
+  Running 505.mcf_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:19:14]
+  Running 520.omnetpp_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:24:57]
+  Running 523.xalancbmk_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:31:32]
+  Running 525.x264_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:35:13]
+  Running 531.deepsjeng_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:39:01]
+  Running 541.leela_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:43:55]
+  Running 557.xz_r refrate (ref) base icc-O2-m64 (1 copy) [2026-08-22 20:50:38]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O2-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.034.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.034.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.034.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.034.log
+
+runcpu finished at 2026-08-22 20:56:15; 2921 total seconds elapsed
+    OK: icc-m64-O2
+>>> [20:56:15] Running icc-m32-O3 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (358346 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:56:16]
+  Building 502.gcc_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:56:24]
+  Building 505.mcf_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:57:35]
+  Building 520.omnetpp_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:57:37]
+  Building 523.xalancbmk_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:57:48]
+  Building 525.x264_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:58:20]
+  Building 531.deepsjeng_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:58:34]
+  Building 541.leela_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:58:36]
+  Building 557.xz_r base icc-O3-m32: (build_base_icc-O3-m32.0000) [2026-08-22 20:58:40]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 525.x264_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 541.leela_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+  Setting up 557.xz_r refrate (ref) base icc-O3-m32 (1 copy): run_base_refrate_icc-O3-m32.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 20:59:09]
+  Running 502.gcc_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:04:17]
+  Running 505.mcf_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:08:23]
+  Running 520.omnetpp_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:15:17]
+  Running 523.xalancbmk_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:23:43]
+  Running 525.x264_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:27:06]
+  Running 531.deepsjeng_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:31:29]
+  Running 541.leela_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:37:45]
+  Running 557.xz_r refrate (ref) base icc-O3-m32 (1 copy) [2026-08-22 21:46:19]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O3-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.035.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.035.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.035.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.035.log
+
+runcpu finished at 2026-08-22 21:53:40; 3445 total seconds elapsed
+    OK: icc-m32-O3
+>>> [21:53:40] Running icc-m64-O3 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.13s (251294 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/icc.cfg'
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:53:42]
+  Building 502.gcc_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:53:52]
+  Building 505.mcf_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:55:04]
+  Building 520.omnetpp_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:55:05]
+  Building 523.xalancbmk_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:55:19]
+  Building 525.x264_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:55:56]
+  Building 531.deepsjeng_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:56:09]
+  Building 541.leela_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:56:11]
+  Building 557.xz_r base icc-O3-m64: (build_base_icc-O3-m64.0000) [2026-08-22 21:56:15]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 502.gcc_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 505.mcf_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 520.omnetpp_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 523.xalancbmk_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 525.x264_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 531.deepsjeng_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 541.leela_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+  Setting up 557.xz_r refrate (ref) base icc-O3-m64 (1 copy): run_base_refrate_icc-O3-m64.0000
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 21:56:44]
+  Running 502.gcc_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:02:53]
+  Running 505.mcf_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:07:41]
+  Running 520.omnetpp_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:13:51]
+  Running 523.xalancbmk_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:19:58]
+  Running 525.x264_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:23:58]
+  Running 531.deepsjeng_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:28:11]
+  Running 541.leela_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:33:26]
+  Running 557.xz_r refrate (ref) base icc-O3-m64 (1 copy) [2026-08-22 22:40:52]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: icc-O3-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.036.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.036.intrate.refrate.csv
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.036.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.036.log
+
+runcpu finished at 2026-08-22 22:48:02; 3261 total seconds elapsed
+    OK: icc-m64-O3
+=== ICC matrix finished Sat Aug 22 22:48:02 IST 2026 ===

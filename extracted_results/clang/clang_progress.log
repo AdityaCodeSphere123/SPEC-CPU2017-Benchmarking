@@ -1,0 +1,810 @@
+=== Clang matrix started Fri Aug 21 22:20:47 IST 2026 ===
+>>> [22:20:47] Running clang-m32-O0 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (354221 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-21 22:20:49]
+  Building 502.gcc_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-21 22:20:53]
+  Building 505.mcf_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-21 22:21:05]
+  Building 520.omnetpp_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-21 22:21:07]
+  Building 523.xalancbmk_r base mytest-m32: (build_base_mytest-m32.0001) [2026-08-21 22:21:17]
+  Up to date 525.x264_r base mytest-m32
+  Up to date 531.deepsjeng_r base mytest-m32
+  Up to date 541.leela_r base mytest-m32
+  Up to date 557.xz_r base mytest-m32
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 502.gcc_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 505.mcf_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0006
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 525.x264_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0004
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 541.leela_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 557.xz_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 22:22:56]
+  Running 502.gcc_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 22:34:08]
+  Running 505.mcf_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 22:44:20]
+  Running 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 22:54:30]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 23:15:18]
+  Running 525.x264_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 23:37:49]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy) [2026-08-21 23:58:58]
+  Running 541.leela_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 00:11:46]
+  Running 557.xz_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 00:46:02]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.020.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.020.log
+
+runcpu finished at 2026-08-22 00:59:38; 9531 total seconds elapsed
+    OK: clang-m32-O0
+>>> [00:59:38] Running clang-m64-O0 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.12s (267375 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m64: (build_base_mytest-m64.0001) [2026-08-22 00:59:41]
+  Up to date 502.gcc_r base mytest-m64
+  Up to date 505.mcf_r base mytest-m64
+  Up to date 520.omnetpp_r base mytest-m64
+  Up to date 523.xalancbmk_r base mytest-m64
+  Up to date 525.x264_r base mytest-m64
+  Up to date 531.deepsjeng_r base mytest-m64
+  Up to date 541.leela_r base mytest-m64
+  Up to date 557.xz_r base mytest-m64
+
+Build successes for intrate: 500.perlbench_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 502.gcc_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 505.mcf_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 525.x264_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 541.leela_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 557.xz_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 01:00:51]
+  Running 502.gcc_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 01:11:08]
+  Running 505.mcf_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 01:20:22]
+  Running 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 01:30:28]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 01:48:00]
+  Running 525.x264_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 02:07:05]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 02:27:09]
+  Running 541.leela_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 02:37:10]
+  Running 557.xz_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 03:08:00]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.021.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.021.log
+
+runcpu finished at 2026-08-22 03:21:21; 8502 total seconds elapsed
+    OK: clang-m64-O0
+>>> [03:21:21] Running clang-m32-O1 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (348769 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:21:24]
+  Building 502.gcc_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:21:32]
+  Building 505.mcf_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:22:07]
+  Building 520.omnetpp_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:22:09]
+  Building 523.xalancbmk_r base mytest-m32: (build_base_mytest-m32.0001) [2026-08-22 03:22:22]
+  Building 525.x264_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:22:50]
+  Building 531.deepsjeng_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:22:58]
+  Building 541.leela_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:23:01]
+  Building 557.xz_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 03:23:04]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 502.gcc_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 505.mcf_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0006
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 525.x264_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0004
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 541.leela_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 557.xz_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:23:54]
+  Running 502.gcc_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:30:34]
+  Running 505.mcf_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:35:19]
+  Running 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:42:03]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:48:47]
+  Running 525.x264_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 03:53:06]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 04:00:48]
+  Running 541.leela_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 04:07:38]
+  Running 557.xz_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 04:17:20]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.022.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.022.log
+
+runcpu finished at 2026-08-22 04:24:01; 3759 total seconds elapsed
+    OK: clang-m32-O1
+>>> [04:24:01] Running clang-m64-O1 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (349639 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m64: (build_base_mytest-m64.0001) [2026-08-22 04:24:03]
+  Building 502.gcc_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:24:12]
+  Building 505.mcf_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:24:45]
+  Building 520.omnetpp_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:24:47]
+  Building 523.xalancbmk_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:25:00]
+  Building 525.x264_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:25:28]
+  Building 531.deepsjeng_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:25:36]
+  Building 541.leela_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:25:38]
+  Building 557.xz_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 04:25:41]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 502.gcc_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 505.mcf_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 525.x264_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 541.leela_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 557.xz_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:26:13]
+  Running 502.gcc_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:32:07]
+  Running 505.mcf_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:36:34]
+  Running 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:42:44]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:49:03]
+  Running 525.x264_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:53:00]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 04:59:42]
+  Running 541.leela_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 05:04:35]
+  Running 557.xz_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 05:12:43]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.023.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.023.log
+
+runcpu finished at 2026-08-22 05:19:12; 3310 total seconds elapsed
+    OK: clang-m64-O1
+>>> [05:19:12] Running clang-m32-O2 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (346832 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:19:14]
+  Building 502.gcc_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:19:23]
+  Building 505.mcf_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:20:03]
+  Building 520.omnetpp_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:20:06]
+  Building 523.xalancbmk_r base mytest-m32: (build_base_mytest-m32.0001) [2026-08-22 05:20:19]
+  Building 525.x264_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:20:50]
+  Building 531.deepsjeng_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:20:59]
+  Building 541.leela_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:21:01]
+  Building 557.xz_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 05:21:04]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 502.gcc_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 505.mcf_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0006
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 525.x264_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0004
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 541.leela_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 557.xz_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:21:40]
+  Running 502.gcc_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:28:23]
+  Running 505.mcf_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:33:03]
+  Running 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:40:22]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:46:31]
+  Running 525.x264_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:50:36]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 05:54:40]
+  Running 541.leela_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 06:01:28]
+  Running 557.xz_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 06:10:17]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.024.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.024.log
+
+runcpu finished at 2026-08-22 06:16:39; 3447 total seconds elapsed
+    OK: clang-m32-O2
+>>> [06:16:39] Running clang-m64-O2 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (348457 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m64: (build_base_mytest-m64.0001) [2026-08-22 06:16:42]
+  Building 502.gcc_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:16:51]
+  Building 505.mcf_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:17:30]
+  Building 520.omnetpp_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:17:32]
+  Building 523.xalancbmk_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:17:45]
+  Building 525.x264_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:18:16]
+  Building 531.deepsjeng_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:18:25]
+  Building 541.leela_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:18:28]
+  Building 557.xz_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 06:18:31]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 502.gcc_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 505.mcf_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 525.x264_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 541.leela_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 557.xz_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:19:01]
+  Running 502.gcc_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:24:39]
+  Running 505.mcf_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:28:54]
+  Running 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:35:29]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:41:04]
+  Running 525.x264_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:45:02]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:48:39]
+  Running 541.leela_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 06:53:29]
+  Running 557.xz_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 07:00:43]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.025.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.025.log
+
+runcpu finished at 2026-08-22 07:06:20; 2980 total seconds elapsed
+    OK: clang-m64-O2
+>>> [07:06:20] Running clang-m32-O3 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (353533 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:06:22]
+  Building 502.gcc_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:06:32]
+  Building 505.mcf_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:07:12]
+  Building 520.omnetpp_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:07:14]
+  Building 523.xalancbmk_r base mytest-m32: (build_base_mytest-m32.0001) [2026-08-22 07:07:28]
+  Building 525.x264_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:07:59]
+  Building 531.deepsjeng_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:08:08]
+  Building 541.leela_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:08:10]
+  Building 557.xz_r base mytest-m32: (build_base_mytest-m32.0000) [2026-08-22 07:08:14]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 502.gcc_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 505.mcf_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0006
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 525.x264_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0004
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 541.leela_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+  Setting up 557.xz_r refrate (ref) base mytest-m32 (1 copy): run_base_refrate_mytest-m32.0005
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:08:48]
+  Running 502.gcc_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:15:25]
+  Running 505.mcf_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:20:00]
+  Running 520.omnetpp_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:27:10]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:33:00]
+  Running 525.x264_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:37:11]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:41:45]
+  Running 541.leela_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:48:25]
+  Running 557.xz_r refrate (ref) base mytest-m32 (1 copy) [2026-08-22 07:56:56]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m32
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.026.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.026.log
+
+runcpu finished at 2026-08-22 08:03:47; 3446 total seconds elapsed
+    OK: clang-m32-O3
+>>> [08:03:47] Running clang-m64-O3 ...
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2017 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v5825
+Using 'linux-x86_64' tools
+Reading file manifests... read 32272 entries from 2 files in 0.09s (347713 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/cs5230497/spec2017/config/clang.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   rate       refrate    SPECrate2017_int   500.perlbench_r,           
+                                                    502.gcc_r, 505.mcf_r,      
+                                                    520.omnetpp_r,             
+                                                    523.xalancbmk_r,           
+                                                    525.x264_r,                
+                                                    531.deepsjeng_r,           
+                                                    541.leela_r, 557.xz_r      
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Starting runcpu for 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r...
+Running "specperl /home/cs5230497/spec2017/bin/sysinfo" to gather system information.
+sysinfo: r5974 of 2018-05-19 (9bcde8f2999c33d61f64985e45859ea9)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get DIMM info from dmidecode
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/gcc.xml)...
+Retrieving flags file (/home/cs5230497/spec2017/config/flags/clang.xml)...
+Benchmarks selected: 500.perlbench_r, 502.gcc_r, 505.mcf_r, 520.omnetpp_r, 523.xalancbmk_r, 525.x264_r, 531.deepsjeng_r, 541.leela_r, 557.xz_r
+Compiling Binaries
+  Building 500.perlbench_r base mytest-m64: (build_base_mytest-m64.0001) [2026-08-22 08:03:49]
+  Building 502.gcc_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:03:59]
+  Building 505.mcf_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:04:39]
+  Building 520.omnetpp_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:04:41]
+  Building 523.xalancbmk_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:04:54]
+  Building 525.x264_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:05:25]
+  Building 531.deepsjeng_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:05:35]
+  Building 541.leela_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:05:37]
+  Building 557.xz_r base mytest-m64: (build_base_mytest-m64.0000) [2026-08-22 08:05:40]
+
+Build successes for intrate: 500.perlbench_r(base), 502.gcc_r(base), 505.mcf_r(base), 520.omnetpp_r(base), 523.xalancbmk_r(base), 525.x264_r(base), 531.deepsjeng_r(base), 541.leela_r(base), 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 502.gcc_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 505.mcf_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 525.x264_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 541.leela_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+  Setting up 557.xz_r refrate (ref) base mytest-m64 (1 copy): run_base_refrate_mytest-m64.0001
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:06:10]
+  Running 502.gcc_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:11:52]
+  Running 505.mcf_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:16:12]
+  Running 520.omnetpp_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:22:27]
+  Running 523.xalancbmk_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:27:40]
+  Running 525.x264_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:31:37]
+  Running 531.deepsjeng_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:35:54]
+  Running 541.leela_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:40:47]
+  Running 557.xz_r refrate (ref) base mytest-m64 (1 copy) [2026-08-22 08:47:47]
+Success: 1x500.perlbench_r 1x502.gcc_r 1x505.mcf_r 1x520.omnetpp_r 1x523.xalancbmk_r 1x525.x264_r 1x531.deepsjeng_r 1x541.leela_r 1x557.xz_r
+Producing Raw Reports
+ label: mytest-m64
+  workload: refrate (ref)
+   metric: SPECrate2017_int_base
+    format: raw -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.rsf
+Parsing flags for 500.perlbench_r base: done
+Parsing flags for 502.gcc_r base: done
+Parsing flags for 505.mcf_r base: done
+Parsing flags for 520.omnetpp_r base: done
+Parsing flags for 523.xalancbmk_r base: done
+Parsing flags for 525.x264_r base: done
+Parsing flags for 531.deepsjeng_r base: done
+Parsing flags for 541.leela_r base: done
+Parsing flags for 557.xz_r base: done
+Doing flag reduction: done
+    format: flags -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.flags.html
+    format: cfg -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.cfg, /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.orig.cfg
+    format: CSV -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.csv
+    format: PDF -> 
+A line in your General Notes section is too long!
+
+/home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.pdf
+    format: HTML -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.html
+    format: Text -> /home/cs5230497/spec2017/result/CPU2017.027.intrate.refrate.txt
+The log for this run is in /home/cs5230497/spec2017/result/CPU2017.027.log
+
+runcpu finished at 2026-08-22 08:53:34; 2987 total seconds elapsed
+    OK: clang-m64-O3
+=== Clang matrix finished Sat Aug 22 08:53:34 IST 2026 ===

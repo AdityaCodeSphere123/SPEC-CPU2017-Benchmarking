@@ -48,6 +48,7 @@ SERIES_STYLES = {
 OPT_LEVELS = ['-O0', '-O1', '-O2', '-O3']
 
 def load_data(csv_path):
+    """Loads the runtime/score series keyed by benchmark -> (compiler, bitness) -> opt level."""
     data = defaultdict(lambda: defaultdict(dict))
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -58,7 +59,7 @@ def load_data(csv_path):
             opt = row['optimization']
             runtime = float(row['runtime_seconds'])
             score = float(row['spec_rate'])
-            
+
             data[bm][(comp, bitness)][opt] = {
                 'runtime': runtime,
                 'score': score
@@ -237,26 +238,26 @@ def plot_bitness_comparison(data, output_dir):
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.abspath(os.path.join(script_dir, '..'))
-    csv_file = os.path.join(root_dir, 'results', 'spec_cpu2017_results.csv')
+    csv_file = os.path.join(root_dir, 'results', 'result.csv')
     plots_dir = os.path.join(root_dir, 'plots')
     os.makedirs(plots_dir, exist_ok=True)
-    
+
     if not os.path.exists(csv_file):
         print(f"Error: CSV file not found at {csv_file}. Please run parse_results.py first.")
         return
-        
+
     data = load_data(csv_file)
-    
+
     # Generate 9 individual benchmark plots
     for bm_name, bm_data in data.items():
         plot_individual_benchmark(bm_name, bm_data, plots_dir)
-        
+
     # Generate summary grid plot
     plot_summary_grid(data, plots_dir)
-    
+
     # Generate bitness comparison plot
     plot_bitness_comparison(data, plots_dir)
-    
+
     print("All plots generated successfully!")
 
 if __name__ == '__main__':

@@ -1,0 +1,2162 @@
+[
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 119461,
+    "static_instructions": 781842,
+    "avg_instructions_per_bb": 6.544747
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 98758,
+    "static_instructions": 447474,
+    "avg_instructions_per_bb": 4.531015
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 101384,
+    "static_instructions": 486533,
+    "avg_instructions_per_bb": 4.798913
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 113444,
+    "static_instructions": 548906,
+    "avg_instructions_per_bb": 4.838564
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 113719,
+    "static_instructions": 709667,
+    "avg_instructions_per_bb": 6.240531
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 95849,
+    "static_instructions": 372264,
+    "avg_instructions_per_bb": 3.883859
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 97114,
+    "static_instructions": 399960,
+    "avg_instructions_per_bb": 4.118459
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 108723,
+    "static_instructions": 451931,
+    "avg_instructions_per_bb": 4.156719
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 130124,
+    "static_instructions": 759277,
+    "avg_instructions_per_bb": 5.835027
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 99315,
+    "static_instructions": 520008,
+    "avg_instructions_per_bb": 5.235946
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 98304,
+    "static_instructions": 521989,
+    "avg_instructions_per_bb": 5.309947
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 102410,
+    "static_instructions": 542405,
+    "avg_instructions_per_bb": 5.296407
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 127503,
+    "static_instructions": 637189,
+    "avg_instructions_per_bb": 4.997443
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 97342,
+    "static_instructions": 409708,
+    "avg_instructions_per_bb": 4.208954
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 96156,
+    "static_instructions": 413482,
+    "avg_instructions_per_bb": 4.300116
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 100294,
+    "static_instructions": 430935,
+    "avg_instructions_per_bb": 4.296718
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 112873,
+    "static_instructions": 743055,
+    "avg_instructions_per_bb": 6.583107
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 92035,
+    "static_instructions": 396229,
+    "avg_instructions_per_bb": 4.305199
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 131699,
+    "static_instructions": 566191,
+    "avg_instructions_per_bb": 4.299129
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 133982,
+    "static_instructions": 579999,
+    "avg_instructions_per_bb": 4.328932
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 113243,
+    "static_instructions": 742716,
+    "avg_instructions_per_bb": 6.558604
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 90624,
+    "static_instructions": 367799,
+    "avg_instructions_per_bb": 4.058517
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 148832,
+    "static_instructions": 618025,
+    "avg_instructions_per_bb": 4.152501
+  },
+  {
+    "benchmark": "500.perlbench_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 158299,
+    "static_instructions": 664010,
+    "avg_instructions_per_bb": 4.194657
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 566719,
+    "static_instructions": 2920938,
+    "avg_instructions_per_bb": 5.15412
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 500521,
+    "static_instructions": 2092512,
+    "avg_instructions_per_bb": 4.180668
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 499588,
+    "static_instructions": 2198698,
+    "avg_instructions_per_bb": 4.401022
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 549089,
+    "static_instructions": 2442775,
+    "avg_instructions_per_bb": 4.448778
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 537821,
+    "static_instructions": 2561928,
+    "avg_instructions_per_bb": 4.763533
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 485974,
+    "static_instructions": 1668455,
+    "avg_instructions_per_bb": 3.433219
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 477661,
+    "static_instructions": 1742925,
+    "avg_instructions_per_bb": 3.648874
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 526535,
+    "static_instructions": 1945099,
+    "avg_instructions_per_bb": 3.694149
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 629115,
+    "static_instructions": 3349513,
+    "avg_instructions_per_bb": 5.324166
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 467219,
+    "static_instructions": 2276978,
+    "avg_instructions_per_bb": 4.87347
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 459377,
+    "static_instructions": 2274042,
+    "avg_instructions_per_bb": 4.950274
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 475948,
+    "static_instructions": 2354747,
+    "avg_instructions_per_bb": 4.947488
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 603100,
+    "static_instructions": 2467255,
+    "avg_instructions_per_bb": 4.090955
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 469263,
+    "static_instructions": 1777447,
+    "avg_instructions_per_bb": 3.787742
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 456905,
+    "static_instructions": 1782772,
+    "avg_instructions_per_bb": 3.901844
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 475237,
+    "static_instructions": 1857252,
+    "avg_instructions_per_bb": 3.908054
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 570414,
+    "static_instructions": 3402411,
+    "avg_instructions_per_bb": 5.96481
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 427590,
+    "static_instructions": 1726362,
+    "avg_instructions_per_bb": 4.037424
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 647242,
+    "static_instructions": 2614101,
+    "avg_instructions_per_bb": 4.038831
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 658299,
+    "static_instructions": 2673837,
+    "avg_instructions_per_bb": 4.061736
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 566703,
+    "static_instructions": 3235075,
+    "avg_instructions_per_bb": 5.70859
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 425624,
+    "static_instructions": 1574979,
+    "avg_instructions_per_bb": 3.7004
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 692417,
+    "static_instructions": 2600012,
+    "avg_instructions_per_bb": 3.75498
+  },
+  {
+    "benchmark": "502.gcc_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 727791,
+    "static_instructions": 2753438,
+    "avg_instructions_per_bb": 3.783281
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 889,
+    "static_instructions": 9215,
+    "avg_instructions_per_bb": 10.365579
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 908,
+    "static_instructions": 6483,
+    "avg_instructions_per_bb": 7.139868
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 911,
+    "static_instructions": 6540,
+    "avg_instructions_per_bb": 7.178924
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 978,
+    "static_instructions": 7334,
+    "avg_instructions_per_bb": 7.498978
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 750,
+    "static_instructions": 6800,
+    "avg_instructions_per_bb": 9.066667
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 792,
+    "static_instructions": 4135,
+    "avg_instructions_per_bb": 5.22096
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 807,
+    "static_instructions": 4299,
+    "avg_instructions_per_bb": 5.327138
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 877,
+    "static_instructions": 4762,
+    "avg_instructions_per_bb": 5.429875
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 1149,
+    "static_instructions": 9219,
+    "avg_instructions_per_bb": 8.023499
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 942,
+    "static_instructions": 7996,
+    "avg_instructions_per_bb": 8.488323
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 1194,
+    "static_instructions": 10860,
+    "avg_instructions_per_bb": 9.095477
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 1240,
+    "static_instructions": 11295,
+    "avg_instructions_per_bb": 9.108871
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 917,
+    "static_instructions": 5882,
+    "avg_instructions_per_bb": 6.414395
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 858,
+    "static_instructions": 4333,
+    "avg_instructions_per_bb": 5.050117
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 1248,
+    "static_instructions": 7449,
+    "avg_instructions_per_bb": 5.96875
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 1319,
+    "static_instructions": 7813,
+    "avg_instructions_per_bb": 5.923427
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 960,
+    "static_instructions": 9696,
+    "avg_instructions_per_bb": 10.1
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 1393,
+    "static_instructions": 7946,
+    "avg_instructions_per_bb": 5.704235
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 1878,
+    "static_instructions": 11913,
+    "avg_instructions_per_bb": 6.34345
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 2024,
+    "static_instructions": 13159,
+    "avg_instructions_per_bb": 6.501482
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 833,
+    "static_instructions": 7037,
+    "avg_instructions_per_bb": 8.447779
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 1133,
+    "static_instructions": 5334,
+    "avg_instructions_per_bb": 4.707855
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 1504,
+    "static_instructions": 7748,
+    "avg_instructions_per_bb": 5.151596
+  },
+  {
+    "benchmark": "505.mcf_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 1635,
+    "static_instructions": 8460,
+    "avg_instructions_per_bb": 5.174312
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 109902,
+    "static_instructions": 590855,
+    "avg_instructions_per_bb": 5.376199
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 86370,
+    "static_instructions": 426701,
+    "avg_instructions_per_bb": 4.940384
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 97446,
+    "static_instructions": 492347,
+    "avg_instructions_per_bb": 5.052511
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 113567,
+    "static_instructions": 572561,
+    "avg_instructions_per_bb": 5.041614
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 98893,
+    "static_instructions": 491523,
+    "avg_instructions_per_bb": 4.970251
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 81596,
+    "static_instructions": 317256,
+    "avg_instructions_per_bb": 3.888132
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 90313,
+    "static_instructions": 365599,
+    "avg_instructions_per_bb": 4.048133
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 106555,
+    "static_instructions": 426110,
+    "avg_instructions_per_bb": 3.998968
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 119892,
+    "static_instructions": 663506,
+    "avg_instructions_per_bb": 5.534197
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 87357,
+    "static_instructions": 443792,
+    "avg_instructions_per_bb": 5.080211
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 87483,
+    "static_instructions": 447675,
+    "avg_instructions_per_bb": 5.11728
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 89955,
+    "static_instructions": 460416,
+    "avg_instructions_per_bb": 5.118292
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 109519,
+    "static_instructions": 424941,
+    "avg_instructions_per_bb": 3.880066
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 79817,
+    "static_instructions": 311480,
+    "avg_instructions_per_bb": 3.902427
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 79350,
+    "static_instructions": 313812,
+    "avg_instructions_per_bb": 3.954783
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 82084,
+    "static_instructions": 323924,
+    "avg_instructions_per_bb": 3.94625
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 114399,
+    "static_instructions": 655480,
+    "avg_instructions_per_bb": 5.72977
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 88272,
+    "static_instructions": 424897,
+    "avg_instructions_per_bb": 4.813497
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 130211,
+    "static_instructions": 618490,
+    "avg_instructions_per_bb": 4.749906
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 130953,
+    "static_instructions": 621924,
+    "avg_instructions_per_bb": 4.749215
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 108172,
+    "static_instructions": 619444,
+    "avg_instructions_per_bb": 5.726473
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 80067,
+    "static_instructions": 327571,
+    "avg_instructions_per_bb": 4.091211
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 130293,
+    "static_instructions": 556743,
+    "avg_instructions_per_bb": 4.273008
+  },
+  {
+    "benchmark": "520.omnetpp_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 134394,
+    "static_instructions": 573465,
+    "avg_instructions_per_bb": 4.267043
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 255075,
+    "static_instructions": 1372192,
+    "avg_instructions_per_bb": 5.379563
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 205940,
+    "static_instructions": 999217,
+    "avg_instructions_per_bb": 4.851981
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 218158,
+    "static_instructions": 1113542,
+    "avg_instructions_per_bb": 5.104291
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 270339,
+    "static_instructions": 1434160,
+    "avg_instructions_per_bb": 5.305043
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 224764,
+    "static_instructions": 1173019,
+    "avg_instructions_per_bb": 5.218892
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 194785,
+    "static_instructions": 770493,
+    "avg_instructions_per_bb": 3.955607
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 203653,
+    "static_instructions": 847069,
+    "avg_instructions_per_bb": 4.159374
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 254436,
+    "static_instructions": 1093404,
+    "avg_instructions_per_bb": 4.297364
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 284001,
+    "static_instructions": 1584090,
+    "avg_instructions_per_bb": 5.577762
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 198064,
+    "static_instructions": 1075929,
+    "avg_instructions_per_bb": 5.432229
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 202363,
+    "static_instructions": 1124121,
+    "avg_instructions_per_bb": 5.554973
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 207109,
+    "static_instructions": 1150692,
+    "avg_instructions_per_bb": 5.555973
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 260083,
+    "static_instructions": 1022622,
+    "avg_instructions_per_bb": 3.931906
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 182454,
+    "static_instructions": 721983,
+    "avg_instructions_per_bb": 3.957069
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 187159,
+    "static_instructions": 765683,
+    "avg_instructions_per_bb": 4.091083
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 192562,
+    "static_instructions": 788098,
+    "avg_instructions_per_bb": 4.092697
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 257145,
+    "static_instructions": 1487585,
+    "avg_instructions_per_bb": 5.785005
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 164121,
+    "static_instructions": 754992,
+    "avg_instructions_per_bb": 4.600216
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 312705,
+    "static_instructions": 1501869,
+    "avg_instructions_per_bb": 4.80283
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 315368,
+    "static_instructions": 1521865,
+    "avg_instructions_per_bb": 4.82568
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 248780,
+    "static_instructions": 1422726,
+    "avg_instructions_per_bb": 5.718812
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 163811,
+    "static_instructions": 655020,
+    "avg_instructions_per_bb": 3.998633
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 325662,
+    "static_instructions": 1374915,
+    "avg_instructions_per_bb": 4.221908
+  },
+  {
+    "benchmark": "523.xalancbmk_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 335124,
+    "static_instructions": 1423061,
+    "avg_instructions_per_bb": 4.246371
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 33822,
+    "static_instructions": 309332,
+    "avg_instructions_per_bb": 9.145881
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 29944,
+    "static_instructions": 211061,
+    "avg_instructions_per_bb": 7.048524
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 31050,
+    "static_instructions": 228549,
+    "avg_instructions_per_bb": 7.360676
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 35953,
+    "static_instructions": 298398,
+    "avg_instructions_per_bb": 8.299669
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 31504,
+    "static_instructions": 302339,
+    "avg_instructions_per_bb": 9.596845
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 28215,
+    "static_instructions": 177519,
+    "avg_instructions_per_bb": 6.291653
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 28981,
+    "static_instructions": 189330,
+    "avg_instructions_per_bb": 6.532901
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 34229,
+    "static_instructions": 255024,
+    "avg_instructions_per_bb": 7.450524
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 37905,
+    "static_instructions": 314517,
+    "avg_instructions_per_bb": 8.297507
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 31322,
+    "static_instructions": 254172,
+    "avg_instructions_per_bb": 8.114807
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 34067,
+    "static_instructions": 291535,
+    "avg_instructions_per_bb": 8.557695
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 37110,
+    "static_instructions": 326532,
+    "avg_instructions_per_bb": 8.79903
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 36119,
+    "static_instructions": 259996,
+    "avg_instructions_per_bb": 7.198317
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 29716,
+    "static_instructions": 187969,
+    "avg_instructions_per_bb": 6.325515
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 33009,
+    "static_instructions": 225151,
+    "avg_instructions_per_bb": 6.820897
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 36394,
+    "static_instructions": 255387,
+    "avg_instructions_per_bb": 7.017283
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 36821,
+    "static_instructions": 357822,
+    "avg_instructions_per_bb": 9.717878
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 30814,
+    "static_instructions": 199828,
+    "avg_instructions_per_bb": 6.484974
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 51941,
+    "static_instructions": 391088,
+    "avg_instructions_per_bb": 7.529466
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 53102,
+    "static_instructions": 403421,
+    "avg_instructions_per_bb": 7.597096
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 3,
+    "static_basic_blocks": 35884,
+    "static_instructions": 363622,
+    "avg_instructions_per_bb": 10.133263
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 3,
+    "static_basic_blocks": 29525,
+    "static_instructions": 181635,
+    "avg_instructions_per_bb": 6.151905
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 3,
+    "static_basic_blocks": 51313,
+    "static_instructions": 410484,
+    "avg_instructions_per_bb": 7.99961
+  },
+  {
+    "benchmark": "525.x264_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 3,
+    "static_basic_blocks": 52867,
+    "static_instructions": 426311,
+    "avg_instructions_per_bb": 8.063839
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 3849,
+    "static_instructions": 35989,
+    "avg_instructions_per_bb": 9.350221
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3480,
+    "static_instructions": 21832,
+    "avg_instructions_per_bb": 6.273563
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 3508,
+    "static_instructions": 20726,
+    "avg_instructions_per_bb": 5.90821
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 3996,
+    "static_instructions": 23726,
+    "avg_instructions_per_bb": 5.937437
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 3661,
+    "static_instructions": 26823,
+    "avg_instructions_per_bb": 7.326687
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3320,
+    "static_instructions": 16144,
+    "avg_instructions_per_bb": 4.862651
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 3315,
+    "static_instructions": 16611,
+    "avg_instructions_per_bb": 5.01086
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 3848,
+    "static_instructions": 19044,
+    "avg_instructions_per_bb": 4.949064
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 4616,
+    "static_instructions": 31210,
+    "avg_instructions_per_bb": 6.761265
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3215,
+    "static_instructions": 22774,
+    "avg_instructions_per_bb": 7.08367
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 3382,
+    "static_instructions": 25399,
+    "avg_instructions_per_bb": 7.510053
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 3642,
+    "static_instructions": 27966,
+    "avg_instructions_per_bb": 7.678748
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 4270,
+    "static_instructions": 22530,
+    "avg_instructions_per_bb": 5.276347
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3097,
+    "static_instructions": 15649,
+    "avg_instructions_per_bb": 5.052954
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 3220,
+    "static_instructions": 17539,
+    "avg_instructions_per_bb": 5.446894
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 3481,
+    "static_instructions": 18941,
+    "avg_instructions_per_bb": 5.441253
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 3692,
+    "static_instructions": 34049,
+    "avg_instructions_per_bb": 9.222373
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3825,
+    "static_instructions": 20356,
+    "avg_instructions_per_bb": 5.32183
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 5918,
+    "static_instructions": 31284,
+    "avg_instructions_per_bb": 5.286245
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 5899,
+    "static_instructions": 31223,
+    "avg_instructions_per_bb": 5.292931
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 3644,
+    "static_instructions": 31298,
+    "avg_instructions_per_bb": 8.588913
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 3577,
+    "static_instructions": 16410,
+    "avg_instructions_per_bb": 4.587643
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 5555,
+    "static_instructions": 32149,
+    "avg_instructions_per_bb": 5.787399
+  },
+  {
+    "benchmark": "531.deepsjeng_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 5539,
+    "static_instructions": 32116,
+    "avg_instructions_per_bb": 5.798159
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 13028,
+    "static_instructions": 72792,
+    "avg_instructions_per_bb": 5.58735
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 6965,
+    "static_instructions": 36741,
+    "avg_instructions_per_bb": 5.27509
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 7410,
+    "static_instructions": 39394,
+    "avg_instructions_per_bb": 5.316329
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 10979,
+    "static_instructions": 60467,
+    "avg_instructions_per_bb": 5.507514
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 11421,
+    "static_instructions": 60428,
+    "avg_instructions_per_bb": 5.290955
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 6825,
+    "static_instructions": 29486,
+    "avg_instructions_per_bb": 4.320293
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 7263,
+    "static_instructions": 32981,
+    "avg_instructions_per_bb": 4.540961
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 10707,
+    "static_instructions": 48316,
+    "avg_instructions_per_bb": 4.512562
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 14188,
+    "static_instructions": 85130,
+    "avg_instructions_per_bb": 6.000141
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 6408,
+    "static_instructions": 38435,
+    "avg_instructions_per_bb": 5.997971
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 6641,
+    "static_instructions": 38820,
+    "avg_instructions_per_bb": 5.845505
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 7283,
+    "static_instructions": 41699,
+    "avg_instructions_per_bb": 5.725525
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 13045,
+    "static_instructions": 54420,
+    "avg_instructions_per_bb": 4.171713
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 6300,
+    "static_instructions": 27777,
+    "avg_instructions_per_bb": 4.409048
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 6380,
+    "static_instructions": 28909,
+    "avg_instructions_per_bb": 4.531191
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 6908,
+    "static_instructions": 30887,
+    "avg_instructions_per_bb": 4.471193
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 14123,
+    "static_instructions": 87699,
+    "avg_instructions_per_bb": 6.209658
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 8134,
+    "static_instructions": 42654,
+    "avg_instructions_per_bb": 5.243914
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 14418,
+    "static_instructions": 83098,
+    "avg_instructions_per_bb": 5.76349
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 14559,
+    "static_instructions": 84096,
+    "avg_instructions_per_bb": 5.776221
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 13822,
+    "static_instructions": 77996,
+    "avg_instructions_per_bb": 5.642888
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 7192,
+    "static_instructions": 32798,
+    "avg_instructions_per_bb": 4.560345
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 13612,
+    "static_instructions": 87655,
+    "avg_instructions_per_bb": 6.439539
+  },
+  {
+    "benchmark": "541.leela_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 13972,
+    "static_instructions": 89134,
+    "avg_instructions_per_bb": 6.379473
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 6908,
+    "static_instructions": 53927,
+    "avg_instructions_per_bb": 7.806456
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 5793,
+    "static_instructions": 35999,
+    "avg_instructions_per_bb": 6.214224
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 7230,
+    "static_instructions": 43070,
+    "avg_instructions_per_bb": 5.957123
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 7147,
+    "static_instructions": 44927,
+    "avg_instructions_per_bb": 6.286134
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 6133,
+    "static_instructions": 46622,
+    "avg_instructions_per_bb": 7.601826
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 5402,
+    "static_instructions": 28705,
+    "avg_instructions_per_bb": 5.313773
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 6630,
+    "static_instructions": 33837,
+    "avg_instructions_per_bb": 5.10362
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "GCC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 6683,
+    "static_instructions": 34937,
+    "avg_instructions_per_bb": 5.227742
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 8126,
+    "static_instructions": 58376,
+    "avg_instructions_per_bb": 7.183854
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 5937,
+    "static_instructions": 43530,
+    "avg_instructions_per_bb": 7.331986
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 6015,
+    "static_instructions": 44829,
+    "avg_instructions_per_bb": 7.452868
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 6271,
+    "static_instructions": 46980,
+    "avg_instructions_per_bb": 7.491628
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 7432,
+    "static_instructions": 43055,
+    "avg_instructions_per_bb": 5.793192
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 5447,
+    "static_instructions": 30001,
+    "avg_instructions_per_bb": 5.507802
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 5585,
+    "static_instructions": 32007,
+    "avg_instructions_per_bb": 5.730886
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "Clang",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 6127,
+    "static_instructions": 34860,
+    "avg_instructions_per_bb": 5.689571
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 7114,
+    "static_instructions": 60406,
+    "avg_instructions_per_bb": 8.491144
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 6148,
+    "static_instructions": 36286,
+    "avg_instructions_per_bb": 5.902082
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 9597,
+    "static_instructions": 66143,
+    "avg_instructions_per_bb": 6.89205
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "32",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 9759,
+    "static_instructions": 67534,
+    "avg_instructions_per_bb": 6.920176
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O0",
+    "num_executables": 1,
+    "static_basic_blocks": 6931,
+    "static_instructions": 55707,
+    "avg_instructions_per_bb": 8.037368
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O1",
+    "num_executables": 1,
+    "static_basic_blocks": 5750,
+    "static_instructions": 29948,
+    "avg_instructions_per_bb": 5.208348
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O2",
+    "num_executables": 1,
+    "static_basic_blocks": 8963,
+    "static_instructions": 79195,
+    "avg_instructions_per_bb": 8.835769
+  },
+  {
+    "benchmark": "557.xz_r",
+    "compiler": "ICC",
+    "bits": "64",
+    "optimization": "O3",
+    "num_executables": 1,
+    "static_basic_blocks": 9268,
+    "static_instructions": 81163,
+    "avg_instructions_per_bb": 8.757337
+  }
+]
